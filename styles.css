@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.container {
+  position: relative;
+  width: 800px;
+}
+
+.main-image {
+  width: 100%;
+  display: block;
+}
+
+.qr-preview {
+  position: absolute;
+  top: 70%;
+  left: 75%;
+  width: 200px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  display: none; /* Скрыто по умолчанию */
+}
+
+.tooltip {
+  position: absolute;
+  top: 55%;
+  left: 15%;
+  width: 300px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  display: none; /* Скрыто по умолчанию */
+}
+
+.trigger-text {
+  position: absolute;
+  top: 55%;
+  left: 12%;
+  color: blue;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.trigger-text:hover {
+  text-decoration: underline;
+}
